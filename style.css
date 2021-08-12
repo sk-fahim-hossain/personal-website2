@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    margin: 5px 0;
+}
+nav ul{
+    list-style: none;
+    display: inline;
+    text-align: right;
+}
+nav ul li{
+    float: right;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 5px 10px;
+    color:black;
+    padding: 10px 20px;
+    margin: 20px 20px;
+}
+.half-width{
+    width:40%;
+    float:left;
+    margin-left:5%;
+    padding-left:2%;
+}
+ .half-width img{
+    width: 100%;
+    padding: 5px;
+}
+.name-highlight{
+    color: tomato;
+}
+p{
+    padding: 20px 5px;
+}
+.button{
+    background-color: tomato;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+}
+.about-section{
+    padding-top: 30px;
+}
+h1{
+    font-size:64px;
+}
+h2{
+    font-size: 50px;
+}
+.work{
+    background-color:#f8f9fc;
+    display: inline-block;
+    padding-bottom: 50px;
+}
+.one-third-width{
+    width:28%;
+    margin: 1%;
+    padding: 1%;
+    float: left;
+    height:360px;
+    border: none;
+    border-radius:10px;
+    box-shadow: 1px 1px 7px lightgrey;
+
+}
+.one-third-width img{
+    width: 100%;
+}
+.work h2{
+    text-align: center;
+    padding: 80px 0;
+}
+.work-inquiry{
+    background-image: url(../images/pic7.png);
+    margin-left: 20%;
+    margin-top: 8%;
+    width: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    margin-bottom: 10%;
+   
+}
+.work-inquiry h2{
+    padding: 10px 10px;
+    color: white;
+}
+.work-inquiry a{
+   margin-left: 20%;
+}
+.footer-text{
+    text-align: center;
+}
+.social-icons img {
+    width: 50px;
+    margin: 5px 10px;
+}
